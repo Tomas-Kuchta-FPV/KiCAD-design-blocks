@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "87dec32d-7554-4963-a6dc-2ca883d80a81")
+	(uuid "58dd2700-b780-4ed1-82bb-bb425b915a2e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -1739,16 +1739,16 @@
 		(uuid "7f057d80-9a06-4a87-8b59-8a80357077bd")
 	)
 	(junction
-		(at 114.3 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5949b7f-de0b-474b-a218-f80083e253d7")
-	)
-	(junction
 		(at 135.89 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1ef2a3d-ba3f-4c97-ab6b-b945e28b024f")
+	)
+	(junction
+		(at 114.3 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcb85af7-5b50-4739-a50d-5f746ba22fc8")
 	)
 	(junction
 		(at 135.89 67.31)
@@ -1796,13 +1796,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 63.5)
+			(xy 165.1 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19f7cb6d-0fa6-4ef1-a27e-64cf0b462013")
+		(uuid "195d74b9-bf95-412b-9a4a-8b9b532456dc")
 	)
 	(wire
 		(pts
@@ -1966,16 +1966,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 175.26 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc49394b-a44a-434e-9863-e456a2865c81")
-	)
-	(wire
-		(pts
 			(xy 143.51 105.41) (xy 146.05 105.41)
 		)
 		(stroke
@@ -2033,6 +2023,16 @@
 			(type default)
 		)
 		(uuid "ddfbe9ac-c35d-40ef-8430-ccfd59779bed")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40be507-513f-4b32-a9f8-9760a27610ce")
 	)
 	(wire
 		(pts
@@ -2272,6 +2272,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2827654"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "94dee342-90bc-45a2-a066-278c4d4da871")
 		)
@@ -2456,6 +2467,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.05 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59748eaa-484d-4fab-99c0-c984577fb1b5")
+		(property "Reference" "R4"
+			(at 148.59 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 148.59 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 144.272 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84375"
+			(at 146.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9d12b7d-1396-406a-90e3-74ef1e619730")
+		)
+		(pin "2"
+			(uuid "8c744dbc-6de1-4727-bd96-3af1ba316b7f")
+		)
+		(instances
+			(project "UBS-C_TYPE-C-31-M-12"
+				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 140.97 63.5 0)
 		(unit 1)
@@ -2599,6 +2702,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A5"
 			(uuid "086aeacc-d5c6-42c4-9f8c-864393a19c00")
 		)
@@ -2732,98 +2846,6 @@
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db13dff3-8ce1-42bb-9e7a-ced2c90d74ad")
-		(property "Reference" "R4"
-			(at 148.59 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 148.59 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 144.272 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C84375"
-			(at 146.05 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9d12b7d-1396-406a-90e3-74ef1e619730")
-		)
-		(pin "2"
-			(uuid "8c744dbc-6de1-4727-bd96-3af1ba316b7f")
-		)
-		(instances
-			(project "UBS-C_TYPE-C-31-M-12"
-				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
-					(reference "R4")
 					(unit 1)
 				)
 			)

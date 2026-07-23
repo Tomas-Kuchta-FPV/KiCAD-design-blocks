@@ -2432,6 +2432,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2827654"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "94dee342-90bc-45a2-a066-278c4d4da871")
 		)
@@ -2841,6 +2852,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 118.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
